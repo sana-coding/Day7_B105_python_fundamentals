@@ -1,0 +1,548 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4e2120a1-e8cc-4e0d-9766-c60a384342f1",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Introduction to tuple datatypes :\n",
+    "Defination : An imutable list is called as a tuple(data is fixed...we cannot edit/modify data)\n",
+    "Classification : It is an imutable datatype(fixed in nature)\n",
+    "how to declare the tuple datatype---->()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b8899324-03cf-49ed-94d1-064bfa87f002",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "39e69e63-5ff7-436a-b67e-dbb2d982698a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "('priya', 'vishnu', 'karthik', 'azeem', 'danish', 'sana')\n"
+     ]
+    }
+   ],
+   "source": [
+    "students = ('priya','vishnu','karthik','azeem','danish','sana')\n",
+    "\n",
+    "print(students)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d48994b3-139f-4c0b-bc1b-bfc6e7f48163",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "fb6b32f8-1a92-414a-af26-5c663549dab2",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "tuple"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(students)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f163a73d-db32-4de1-9e20-b953ef0c7c77",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# req : i want to access vishnu name in the output...?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "6e96d5df-7ca6-4cda-a987-5fd628594a4e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "vishnu\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(students[1])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1ee5d043-b8fb-408c-a964-2182434c9f73",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "87292989-2699-447f-9942-2987a6e19af7",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# general syntax of a for loop :"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "5f80e73d-93b8-4570-a70b-d881e719afd8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "priya\n",
+      "vishnu\n",
+      "karthik\n",
+      "azeem\n",
+      "danish\n",
+      "sana\n"
+     ]
+    }
+   ],
+   "source": [
+    "for tempvar in students :\n",
+    "\n",
+    " print(tempvar)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "8a40950e-5e59-48ee-8215-82231b1d24f5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "priya\n",
+      "vishnu\n",
+      "karthik\n",
+      "azeem\n",
+      "danish\n",
+      "sana\n"
+     ]
+    }
+   ],
+   "source": [
+    "for a in students :\n",
+    "    print(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2988ba0c-82e6-4c92-a5f0-d48e1229f47b",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "0cc9216d-888f-444e-89a4-7e73ce699699",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "(20, 30)\n"
+     ]
+    }
+   ],
+   "source": [
+    "dimensions = (20,30)   # L *B\n",
+    "\n",
+    "print(dimensions)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "d78a78a9-24a7-454b-b33e-88347aa35c2e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "tuple"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(dimensions)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "fd45769f-9af4-4e09-ba42-ba601d749ae2",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8f0a87cd-40e2-4552-b4f5-571b3010f147",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Introduction to dictionary datatypes :\n",
+    "Defination : dictionary is nothing but a combination of key value pairs.\n",
+    "Classification : It is classified as a mutable datatype\n",
+    "How to declare the dictionary--->{}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "947cb379-fef9-43ae-b525-806a8ecd23f8",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "24442ce9-66b7-4b14-9cca-7a410a694e79",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "  # i want to create a alien game :"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "ce27eaf6-0186-43d0-bbb8-61a44ef02fa7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "{'color': 'green', 'points': 5, 'level': 'stage-1'}\n"
+     ]
+    }
+   ],
+   "source": [
+    "alien = {'color':'green','points':5,'level':'stage-1'}\n",
+    "\n",
+    "print(alien)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b3430869-1b8b-4487-a940-c5c05e336e6c",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8fe278d2-b73a-4e3b-a4ec-e223e1baa590",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "  # req : i want to know the color of the alien ...?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5a96bd4e-b8f3-4e29-997d-47e53b5145dd",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "d5de692a-7794-4c73-bfc8-953f982c60ee",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "green\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(alien['color'])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "faf069e3-c101-402f-96cc-096308954e50",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "   # give the key and get the value out of it...."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "17fd18ae-2bdf-4fff-ac87-a71820a4b3b7",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4d829671-d1ff-4fc5-9ca1-0331ca974d02",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "   #facebook user account :"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "99b1af5c-5308-4fd4-9872-1f3422af6146",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "b038b39c-f34e-4dbb-8b0e-63ad5b1a26ec",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "{'username': 'codetraining', 'firstname': 'code', 'lastname': 'training', 'dob': '01-01-2020', 'pwd': '54321'}\n"
+     ]
+    }
+   ],
+   "source": [
+    "useraccount = {'username':'codetraining','firstname':'code','lastname':'training','dob':'01-01-2020','pwd':'54321'}\n",
+    "\n",
+    "print(useraccount)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9a6be97e-3d5d-4f58-bb14-87d17817d80d",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "df0287c7-a168-46b9-a208-9641b0042b87",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "   # req : i want to access username..."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "3fed2679-8ce9-4893-a197-ad5ed4b9b062",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "codetraining\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(useraccount['username'])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3add61bd-1cad-48f4-9856-0c27fbdee674",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "   # req i want to modify my password "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "ed2590e2-fee6-49cd-8940-d48360c116ab",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "{'username': 'codetraining', 'firstname': 'code', 'lastname': 'training', 'dob': '01-01-2020', 'pwd': '12345'}\n"
+     ]
+    }
+   ],
+   "source": [
+    "useraccount['pwd'] = '12345'\n",
+    "\n",
+    "print(useraccount)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "68b5ca76-c104-4df4-a9ec-6187cd52111f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "  # req : i want to update my firstname...."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "54c6c13c-c04c-44b7-85ad-ae6312d3a934",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "{'username': 'codetraining', 'firstname': 'codet', 'lastname': 'training', 'dob': '01-01-2020', 'pwd': '12345'}\n"
+     ]
+    }
+   ],
+   "source": [
+    "useraccount['firstname'] = 'codet'\n",
+    "\n",
+    "print(useraccount)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f7f49353-b6c1-4c1c-a429-c030f0285cbd",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f85a1bfe-6ed5-4005-80a7-825b14ed5afe",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "  # how to delete the key value pair"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b29e9182-566e-48d3-ad0e-b621af2fefbe",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "   # req : i want to delete the lastname...."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5ae818f7-9fc1-4545-8d09-79c3f1c20725",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "del useraccount('lastname')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c68d7829-3430-438e-92c2-011affe7ff1c",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "bb4cbceb-10f6-4538-a5f5-ff599420418f",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.14.6"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
